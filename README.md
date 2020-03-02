@@ -11,5 +11,5 @@
   [Query String 이란?](https://juhyeoklee.github.io/ios/ios-post05/)
 
 ## 6차 과제발표
-- Delegation 패턴을 활용하여 Cell 안의 버튼 이벤트 처리하기
+- Delegation 패턴을 활용하여 Cell 안의 버튼 이벤트 처리하기  
   [Delegation Pattern 을 이용한 Cell 안의 버튼 이벤트 처리](https://juhyeoklee.github.io/ios/ios-post06/)
