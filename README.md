@@ -17,3 +17,8 @@
 ## 7차 스터디 과제
 - UIPickerView 써보기  
 [UIPickerView 써보기](https://juhyeoklee.github.io/ios/ios-post07/)
+
+## 8차 스터디 과제
+- UIScrollViewDelegate에 관하여
+[UIScrollViewDelegate에 관하여]()
+
