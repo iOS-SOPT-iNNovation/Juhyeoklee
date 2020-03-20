@@ -19,6 +19,6 @@
 [UIPickerView 써보기](https://juhyeoklee.github.io/ios/ios-post07/)
 
 ## 8차 스터디 과제
-- UIScrollViewDelegate에 관하여
-[UIScrollViewDelegate에 관하여]()
+- UIScrollViewDelegate에 관하여  
+[UIScrollViewDelegate에 관하여](https://github.com/iOS-SOPT-iNNovation/Juhyeoklee/blob/master/8%EC%B0%A8%20%EC%8A%A4%ED%84%B0%EB%94%94%20%EA%B3%BC%EC%A0%9C.md)
 
