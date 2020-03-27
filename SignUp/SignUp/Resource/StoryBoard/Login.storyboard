@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nMj-hq-B7i">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="Rs9-6o-XND">
+            <objects>
+                <viewController id="nMj-hq-B7i" customClass="LoginVC" customModule="SignUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BVJ-p2-155">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lhQ-Xw-uU3">
+                                <rect key="frame" x="50" y="194.5" width="314" height="199"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="1uP-zX-qgp"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdm-DO-UjA">
+                                <rect key="frame" x="50" y="451" width="314" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YKv-Wo-OxA">
+                                <rect key="frame" x="50" y="500" width="314" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="o7g-RD-jAk">
+                                <rect key="frame" x="131.5" y="554" width="151" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfC-10-Zt2">
+                                        <rect key="frame" x="0.0" y="0.0" width="47" height="30"/>
+                                        <state key="normal" title="Sign In"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHo-Su-iF3">
+                                        <rect key="frame" x="97" y="0.0" width="54" height="30"/>
+                                        <state key="normal" title="Sign Up">
+                                            <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="touchSignUpButton:" destination="nMj-hq-B7i" eventType="touchUpInside" id="RER-xy-qR8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cdm-DO-UjA" firstAttribute="leading" secondItem="lhQ-Xw-uU3" secondAttribute="leading" id="FK7-JQ-cAo"/>
+                            <constraint firstItem="lhQ-Xw-uU3" firstAttribute="top" secondItem="XRQ-Zt-mLh" secondAttribute="top" constant="150" id="Kou-ie-btj"/>
+                            <constraint firstItem="XRQ-Zt-mLh" firstAttribute="trailing" secondItem="lhQ-Xw-uU3" secondAttribute="trailing" constant="50" id="Tok-6K-vFz"/>
+                            <constraint firstItem="YKv-Wo-OxA" firstAttribute="leading" secondItem="cdm-DO-UjA" secondAttribute="leading" id="X1G-vo-CF9"/>
+                            <constraint firstItem="YKv-Wo-OxA" firstAttribute="top" secondItem="cdm-DO-UjA" secondAttribute="bottom" constant="15" id="XXp-ZG-I77"/>
+                            <constraint firstItem="lhQ-Xw-uU3" firstAttribute="leading" secondItem="XRQ-Zt-mLh" secondAttribute="leading" constant="50" id="XdX-Pi-AwX"/>
+                            <constraint firstItem="YKv-Wo-OxA" firstAttribute="trailing" secondItem="cdm-DO-UjA" secondAttribute="trailing" id="g0z-N1-Qvh"/>
+                            <constraint firstItem="cdm-DO-UjA" firstAttribute="top" secondItem="lhQ-Xw-uU3" secondAttribute="bottom" constant="57" id="kYl-yx-5MB"/>
+                            <constraint firstItem="lhQ-Xw-uU3" firstAttribute="centerX" secondItem="BVJ-p2-155" secondAttribute="centerX" id="mK5-0I-ulg"/>
+                            <constraint firstItem="cdm-DO-UjA" firstAttribute="trailing" secondItem="lhQ-Xw-uU3" secondAttribute="trailing" id="mLq-FA-CAO"/>
+                            <constraint firstItem="o7g-RD-jAk" firstAttribute="centerX" secondItem="BVJ-p2-155" secondAttribute="centerX" id="pmf-YC-tlc"/>
+                            <constraint firstItem="o7g-RD-jAk" firstAttribute="top" secondItem="YKv-Wo-OxA" secondAttribute="bottom" constant="20" id="w6b-tl-qk8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XRQ-Zt-mLh"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MLA-v1-d8n"/>
+                    <connections>
+                        <outlet property="idTextField" destination="cdm-DO-UjA" id="fqQ-N8-V29"/>
+                        <outlet property="pwTextField" destination="YKv-Wo-OxA" id="kSv-sz-nbw"/>
+                        <outlet property="signInButton" destination="dfC-10-Zt2" id="0T2-h1-sgQ"/>
+                        <outlet property="signUpButton" destination="AHo-Su-iF3" id="rPD-zg-SKa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9m-z8-sOu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1833.3333333333335" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pencil.circle" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
