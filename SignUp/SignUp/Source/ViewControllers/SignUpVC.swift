@@ -42,7 +42,9 @@ class SignUpVC: UIViewController {
     
     // MARK:- Custom Method
     func registDelegate(){
-        idTextField.delegate = self
+        //idTextField.delegate = self
+        idTextField.addTarget(self, action: #selector(activeNextButton), for: .editingChanged)
+        
         pwTextField.delegate = self
         checkPWTextField.delegate = self
         
@@ -52,6 +54,7 @@ class SignUpVC: UIViewController {
         registViewTapGestureRecognizer()
         registImageViewTapGestureRecognizer()
     }
+    
     func registNotificationCenter(){
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(activeNextButton),
@@ -77,6 +80,7 @@ class SignUpVC: UIViewController {
    
     
     func isWriteAllInfomationCorrectly() -> Bool {
+        // add
         guard let id = self.idTextField.text else {
             return false
         }
