@@ -30,3 +30,6 @@
 
 ## 13차 스터디 과제
 -[Firebase 로그인 사용해보기](https://hereismyblog.tistory.com/manage/posts)
+
+## 14차 스터디 과제
+-[IBInspectable / IBDesignable](https://hereismyblog.tistory.com/5)
