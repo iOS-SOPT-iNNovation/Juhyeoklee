@@ -33,3 +33,6 @@
 
 ## 14차 스터디 과제
 -[IBInspectable / IBDesignable](https://hereismyblog.tistory.com/5)
+
+## 16차 스터디 과제
+-[RxSwift 맛만 보자 !](https://hereismyblog.tistory.com/6)
