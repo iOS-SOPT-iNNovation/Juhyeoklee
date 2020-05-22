@@ -36,3 +36,6 @@
 
 ## 16차 스터디 과제
 -[RxSwift 맛만 보자 !](https://hereismyblog.tistory.com/6)
+
+## 17차 스터디 과제  
+-[RxSwift 2탄 !! Observable에 대해 알아보쟈](https://hereismyblog.tistory.com/7)
