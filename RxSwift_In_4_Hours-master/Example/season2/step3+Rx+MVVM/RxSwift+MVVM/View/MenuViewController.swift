@@ -101,6 +101,7 @@ class MenuViewController: UIViewController {
         // 액티비티 인디케이터
         viewModel.activated
             .map { !$0 }
+            .observeOn(MainScheduler.instance)
             .do(onNext: { [weak self] finished in
                 if finished {
                     self?.tableView.refreshControl?.endRefreshing()

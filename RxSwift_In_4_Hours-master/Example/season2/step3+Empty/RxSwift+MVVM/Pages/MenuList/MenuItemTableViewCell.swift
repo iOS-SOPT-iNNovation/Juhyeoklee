@@ -13,10 +13,14 @@ class MenuItemTableViewCell: UITableViewCell {
     @IBOutlet var count: UILabel!
     @IBOutlet var price: UILabel!
 
+    var onChaged: ((Int) -> Void)?
+    
     @IBAction func onIncreaseCount() {
-
+        
+        onChaged?(+1)
     }
 
     @IBAction func onDecreaseCount() {
+        onChaged?(-1)
     }
 }

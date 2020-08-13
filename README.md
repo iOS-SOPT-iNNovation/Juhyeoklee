@@ -17,3 +17,4 @@
 |  13  |             RxSwift에 대해서 알아보자 4탄 ~~              | 2020. 6. 13 |                                       [링크](https://hereismyblog.tistory.com/9?category=890075)                                       |
 |  14  |        RxSwift, 이제 드디어 뭐 좀 만들어 보자 !!!!        | 2020. 6. 27 |                                              [링크](https://hereismyblog.tistory.com/10)                                               |
 |  15  |            KVO에 대해 알아보고 적용해 보자 !!             | 2020. 8. 7  |                                      [링크](https://hereismyblog.tistory.com/11?category=890074)                                       |
+|  24  |                RxSwift 대망의 마지막 편..1                |  2020.8.14  |                                              [링크](https://hereismyblog.tistory.com/12)                                               |

@@ -15,3 +15,10 @@ struct Menu {
     var price: Int
     var count: Int
 }
+
+
+extension Menu {
+    static func fromMenuItems(menuItem: MenuItem) -> Menu {
+        return Menu(name: menuItem.name, price: menuItem.price, count: 0)
+    }
+}
