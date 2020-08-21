@@ -29,7 +29,7 @@ class MenuListViewModel {
     
     
     init() {
-//        print("init viewmodel")
+        print("init viewmodel")
 //        _ = APIService.fetchAllMenusRx()
 //            .map { data -> [MenuItem] in
 //                struct Response: Decodable {
@@ -57,6 +57,7 @@ class MenuListViewModel {
         
         menuObservable.onNext(menus)
     }
+    
     // 각 동작은 뷰모델 안에서 수행
     func clearAllItemSelections() {
         _ = menuObservable.map {

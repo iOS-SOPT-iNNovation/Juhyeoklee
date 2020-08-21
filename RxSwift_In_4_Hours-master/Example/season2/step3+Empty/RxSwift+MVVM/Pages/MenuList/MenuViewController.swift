@@ -42,7 +42,9 @@ class MenuViewController: UIViewController {
         
         viewModel?.totalPrice
             .map { $0.currencyKR() }
-            .bind(to: self.totalPrice.rx.text) // 순환참조 문제가 사라진다.
+        .asDriver(onErrorJustReturn: "")
+            .drive(self.totalPrice.rx.text)
+//            .bind(to: self.totalPrice.rx.text) // 순환참조 문제가 사라진다.
             .disposed(by: self.disposeBag)
         
 //        viewModel?.totalPrice
