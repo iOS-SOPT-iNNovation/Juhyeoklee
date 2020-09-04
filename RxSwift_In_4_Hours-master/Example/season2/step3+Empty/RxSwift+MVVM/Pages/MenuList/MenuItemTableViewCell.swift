@@ -13,7 +13,7 @@ class MenuItemTableViewCell: UITableViewCell {
     @IBOutlet var title: UILabel!
     @IBOutlet var count: UILabel!
     @IBOutlet var price: UILabel!
-//    var a = BehaviorRelay 
+//    var a = BehaviorRelay
     var onChaged: ((Int) -> Void)?
 //    var viewModel: MenuListViewModel?
     
