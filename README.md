@@ -20,3 +20,4 @@
 |  24  |                RxSwift 대망의 마지막 편..1                |  2020.8.14  |                                              [링크](https://hereismyblog.tistory.com/12)                                               |
 |  25  |               RxSwift 마지막의 마지막편 !!!               |  2020.8.21  |                                              [링크](https://hereismyblog.tistory.com/13)                                               |
 |  27  |                Swift Combine은 또 뭐야 ..?                | 2020.09.04  |                                              [링크](https://hereismyblog.tistory.com/14)                                               |
+|  32  |                 UIBezierPath 간단 사용기                  | 2020.10.16  |                                              [링크](https://hereismyblog.tistory.com/15)                                               |
